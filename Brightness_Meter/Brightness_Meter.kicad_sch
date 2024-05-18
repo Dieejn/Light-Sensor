@@ -1,0 +1,138 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f7cc1c24-a210-4fa3-a52b-f1d84e501e31)
+
+  (paper "A4")
+
+  (title_block
+    (title "ENTRY DIAGRAM")
+    (date "2023-12-10")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 59.69) (size 26.67 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0dfa2039-b238-4efb-bfd4-eadfb986a7b5)
+    (property "Sheetname" "Power" (at 95.25 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 95.25 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 134.62 59.69) (size 26.67 66.04) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 290a832f-b788-4d59-9a7b-fef286f8a5e3)
+    (property "Sheetname" "MCU" (at 134.62 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 134.62 126.3146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 95.25 102.87) (size 26.67 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5a3a8fd1-e4fe-4d9a-9c54-1c080d472344)
+    (property "Sheetname" "measure" (at 95.25 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "measure.kicad_sch" (at 95.25 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 172.72 102.87) (size 26.67 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6f8def10-c68a-4898-8083-f8c3c1f180a9)
+    (property "Sheetname" "level shifting" (at 172.72 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "level_shifting.kicad_sch" (at 172.72 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 172.72 59.69) (size 26.67 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ab0de2ed-6637-4354-a1fc-796bfac97bc8)
+    (property "Sheetname" "lcd" (at 172.72 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lcd.kicad_sch" (at 172.72 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 172.72 81.28) (size 26.67 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d2b066dd-80db-41f1-ba17-403893ab45ee)
+    (property "Sheetname" "setting" (at 172.72 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "setting.kicad_sch" (at 172.72 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 95.25 81.28) (size 26.67 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid deff02a5-9749-4336-8250-65170600f763)
+    (property "Sheetname" "adc" (at 95.25 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "adc.kicad_sch" (at 95.25 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Brightness_Meter"
+        (path "/f7cc1c24-a210-4fa3-a52b-f1d84e501e31" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
